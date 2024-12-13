@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016",             // Postavljanje verzije JavaScript-a
+    "module": "commonjs",           // Koristimo CommonJS kao modul sistem
+    "esModuleInterop": true,        // Omogućava lakše rukovanje CommonJS modulima
+    "strict": true,                 // Uključuje sve stroge TypeScript provere
+    "forceConsistentCasingInFileNames": true, // Održavanje konzistentnog casing-a
+    "skipLibCheck": true,           // Ignoriše provere tipova u definicionim fajlovima
+    "rootDir": "./src",             // Korenski direktorijum za TypeScript fajlove
+    "outDir": "./dist"              // Direktorijum za izlazne (kompajlirne) fajlove
+  },
+  "include": ["src/**/*"],          // Uključuje sve fajlove unutar `src` direktorijuma
+  "exclude": ["node_modules"]       // Isključuje `node_modules` direktorijum iz kompajliranja
+}
